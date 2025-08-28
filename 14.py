@@ -1,8 +1,6 @@
-# 14. Write a program to input three numbers(A, B & C) from the user and print the minimum element among A, B & C.
-
-A = int(input("Enter first number:\n "))
-B = int(input("Enter second number:\n "))
-C = int(input("Enter third number:\n "))
+A = int(input("Enter 1st:\n "))
+B = int(input("Enter 2nd:\n "))
+C = int(input("Enter 3rd :\n "))
 
 if A <=B and A < C:
     print("A is minimum")
