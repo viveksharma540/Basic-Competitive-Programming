@@ -1,7 +1,5 @@
-# 3. WAP to check if the number is divisible by 3 and the last digit is 4.
-
-Number  = float(input("enter the number:\n"))
+Number  = float(input("enter:\n"))
 if Number%3==0 and Number%10==4:
-    print("Yes,all condition are true")
+    print("all condition true")
 else:
-    print("NO,both condition are not matching")
+    print("both condition not matching")
