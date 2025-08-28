@@ -1,12 +1,8 @@
-# 9. Take an integer N as input. Your task is to calculate and print the sum of the digits of the 
-# given number N.
-
-
-N = int(input("Enter a number:\n"))
+n = int(input("Enter:\n"))
 sumofdigits = 0
-while N != 0:
-    digit = N % 10        
+while n != 0:
+    digit = n % 10        
     sumofdigits += digit   
-    N = N // 10           
+    n = n // 10           
 
-print("Sum of digits:", sumofdigits)
+print("sum of all digits:", sumofdigits)
