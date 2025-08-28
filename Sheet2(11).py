@@ -1,7 +1,6 @@
-# Take a number A as input, print its multiplication table having the first 10 multiples.
 
-N = int(input("Enter a number:\n"))
+n = int(input("Enter:\n"))
 
-print("Table of:", N)
+print("table :", N)
 for i in range(1, 11):   
-    print(N, "x", i, "=", N* i)
+    print(n, "x", i, "=", n* i)
