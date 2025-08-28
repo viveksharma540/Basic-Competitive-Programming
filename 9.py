@@ -1,6 +1,5 @@
-# 9. WAP to check whether a year is a leap year or not. 
-Year = int(input("Enter the year:\n"))
+Year = int(input("Enter :\n"))
 if (Year % 400 == 0) or (Year % 4 == 0 and Year % 100 != 0):
-    print("Year is Leap year.")
+    print(" Leap year.")
 else:
-    print("Year is not Leap.")
+    print("not Leap year")
