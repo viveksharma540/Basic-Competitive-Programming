@@ -1,11 +1,9 @@
-# 6. Read three integers and print their maximum. 
-
-A = float(input("enter the first number:\n"))
-B = float(input("enter the second number:\n"))
-C = float(input("enter the third number:\n"))
+A = float(input("enter the 1st:\n"))
+B = float(input("enter the 2nd:\n"))
+C = float(input("enter the 3rd:\n"))
 if(A>B and A>C):
-    print("A is greatest")
+    print("A is great")
 elif(B>A and B>C):
-    print("B is greatest")
+    print("B is great")
 else:
-    print("C is greatest")
+    print("C is great")
