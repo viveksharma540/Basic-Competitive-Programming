@@ -1,10 +1,8 @@
-# 13. Write a program to input two numbers(A & B) from the user and print the maximum element among A & B.
-
-A = int(input("Enter first number (A): \n"))
-B = int(input("Enter second number (B): \n"))
+A = int(input("Enter 1st (A): \n"))
+B = int(input("Enter 2nd (B): \n"))
 
 if A > B:
-    print("The maximum number is:", A)
+    print("maximum number :", A)
 else:
     
-    print("The maximum number is:", B)
+    print(" maximum number:", B)
